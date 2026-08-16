@@ -1,0 +1,254 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>BitChad LLC - Innovating the Future of Media</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "primary-fixed-dim": "#f2bc84",
+                "on-secondary-container": "#d4aca0",
+                "inverse-on-surface": "#32302f",
+                "surface-container": "#211f1e",
+                "secondary-container": "#5d4037",
+                "on-tertiary-container": "#483f32",
+                "surface-bright": "#3b3937",
+                "surface": "#141312",
+                "on-surface": "#e6e1df",
+                "background": "#141312",
+                "inverse-surface": "#e6e1df",
+                "tertiary-fixed-dim": "#d2c4b2",
+                "surface-variant": "#363433",
+                "surface-container-low": "#1d1b1a",
+                "on-error": "#690005",
+                "inverse-primary": "#7e5627",
+                "primary-fixed": "#ffdcbc",
+                "surface-tint": "#f2bc84",
+                "on-tertiary": "#372f22",
+                "tertiary": "#d4c6b4",
+                "outline": "#9d8e82",
+                "surface-container-lowest": "#0f0e0d",
+                "on-error-container": "#ffdad6",
+                "tertiary-container": "#b8ab9a",
+                "primary-container": "#d6a36d",
+                "secondary-fixed-dim": "#e7bdb1",
+                "surface-dim": "#141312",
+                "on-background": "#e6e1df",
+                "surface-container-high": "#2b2a28",
+                "tertiary-fixed": "#efe0cd",
+                "primary": "#f4be86",
+                "on-primary-fixed-variant": "#633f12",
+                "on-primary-fixed": "#2c1700",
+                "surface-container-highest": "#363433",
+                "on-secondary-fixed": "#2c160e",
+                "on-tertiary-fixed": "#221a0f",
+                "secondary": "#e7bdb1",
+                "error": "#ffb4ab",
+                "on-secondary": "#442a22",
+                "on-tertiary-fixed-variant": "#4f4538",
+                "on-primary-container": "#5c390c",
+                "on-surface-variant": "#d4c4b6",
+                "error-container": "#93000a",
+                "on-secondary-fixed-variant": "#5d4037",
+                "secondary-fixed": "#ffdbd0",
+                "on-primary": "#492900",
+                "outline-variant": "#50453a"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+        },
+        "spacing": {
+                "container-max": "1280px",
+                "margin-mobile": "16px",
+                "gutter": "24px",
+                "unit": "4px",
+                "margin-desktop": "64px"
+        },
+        "fontFamily": {
+                "headline-lg-mobile": [
+                        "Hanken Grotesk"
+                ],
+                "body-sm": [
+                        "Inter"
+                ],
+                "label-caps": [
+                        "JetBrains Mono"
+                ],
+                "headline-lg": [
+                        "Hanken Grotesk"
+                ],
+                "body-md": [
+                        "Inter"
+                ],
+                "headline-xl": [
+                        "Hanken Grotesk"
+                ]
+        },
+        "fontSize": {
+                "headline-lg-mobile": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-sm": [
+                        "14px",
+                        {
+                                "lineHeight": "20px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "label-caps": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.1em",
+                                "fontWeight": "500"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "40px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-xl": [
+                        "48px",
+                        {
+                                "lineHeight": "56px",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+        body {
+            background-color: theme('colors.surface');
+            color: theme('colors.on-surface');
+        }
+        .glass-panel {
+            background: rgba(33, 31, 30, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(244, 190, 134, 0.15);
+        }
+        .btn-primary-gradient {
+            background: linear-gradient(135deg, theme('colors.primary'), theme('colors.primary-container'));
+            transition: all 0.3s ease;
+        }
+        .btn-primary-gradient:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px rgba(244, 190, 134, 0.4);
+        }
+    </style>
+</head>
+<body class="antialiased flex flex-col min-h-screen font-body-md text-body-md">
+<!-- Navigation -->
+<header class="bg-surface/80 dark:bg-surface/80 backdrop-blur-xl font-body-md text-body-md fixed top-0 w-full z-50 border-b border-outline-variant/20">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-20">
+<div class="flex items-center gap-2 text-primary hover:text-primary transition-colors duration-200">
+<img alt="BitChad Logo" class="w-8 h-8 object-contain rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2waHybIKbiREpgUGjd0rw6V4R2FWfwrl3d1lK6I703p-0VBEGwVawmxqC2Ije6-kjTNXaTFDMqdIRBkoxuAEpuRDkifMKgJBeVz1OIQ0YGHvw5mPJ7asuM2TgjDO1VxIvEXgrpkVFA_KAq5VbCfaDhHxuu7-6GV_huUUpmjtWave3_gR48sLv4WMAyXAmKZisg_xjCvWhr6lp4EeG_78ByWqaElFptwe5mOXW1_B4mSLW22qe__qWoxwBwcM-n44sFg">
+<span class="font-headline-lg text-headline-lg font-bold text-primary tracking-tight">BitChad</span>
+</div>
+<!-- Mobile nav simple state, desktop nav would be here but hidden for mobile focus -->
+</div>
+</header>
+<main class="flex-grow pt-20">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-16 md:py-32 flex flex-col items-center text-center relative overflow-hidden">
+<!-- Subtle background glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-primary/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<div class="mb-8 relative w-32 h-32 md:w-48 md:h-48 glow-effect rounded-full p-4 glass-panel flex items-center justify-center">
+<img alt="BitChad Corporate Brand Mark" class="w-full h-full object-contain drop-shadow-2xl rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdNqh490niKbbbIkSgcg9t3a7tfPLUQw-rfQEULBJgSVSxpbqfyWOolYxLPtd8_JHbNnenI5EzszJ2Aam5R10usfF9ySeLjojAyiLXnlINg-me5_slStZ3dULSaa1drWFQXdg32IZwNT3JD908xr1u3tNUROCNa6zW5Oea1t5XegqtpRhuiPkB-8FTmHF0LE7SYLKAW64ogLv0nB8evKC_PruF_7N4kKLlu2T3nJKEL39FHfS0wovuIA-5-dRkgbOQ2w">
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-6 max-w-3xl">Innovating the Future of Media</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mb-10">BitChad LLC is the engine behind next-generation AI creative tools, bridging the gap between high-stakes technology and approachable creativity.</p>
+<div class="flex gap-4">
+<span class="font-label-caps text-label-caps bg-surface-container-high text-primary px-4 py-2 rounded-full border border-outline-variant/30 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                    AI Engine Active
+                </span>
+</div>
+</section>
+<!-- Product Showcase: BurstClip -->
+<section class="px-margin-mobile md:px-margin-desktop py-16 bg-surface-container-lowest border-y border-outline-variant/10">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="order-2 md:order-1 glass-panel rounded-xl p-8 flex flex-col items-start relative overflow-hidden group hover:bg-surface-container-low transition-colors duration-300">
+<!-- Decorative blur -->
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-primary-container/20 rounded-full blur-[50px] pointer-events-none"></div>
+<div class="flex items-center gap-3 mb-6">
+<img alt="BurstClip Logo" class="w-10 h-10 object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLuknnknuOHeTXfcYNdVikOJ0YfZF5-iD_wCF7uUXMaukswLM8gDVV9eJdF7J99BnxLMqiGqWJ4acZUP5ubGRtSHPgWUef7Kx6UpURjkDjqLKqd0Nlc9AwMvgOGvJxBnRicLw0CxoHiUWaGKSaipDn6L8dSuPu-mzBzdgnc889mHIf97Gh6-V3Fbb0yGIcd02vMw3PksMuRZHFokJB9mKpNZymz9-EFPwW8TQc0-TiEHw3dmQomckSedNS4">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Our Flagship: BurstClip</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                        The premier AI video creator for iPhone, turning ideas into cinematic stories. BurstClip leverages our proprietary AI models to democratize high-fidelity video production for creators worldwide.
+                    </p>
+<a class="btn-primary-gradient font-body-md text-body-md px-6 py-3 rounded-lg flex items-center gap-2 w-full md:w-auto justify-center font-bold text-on-primary" href="https://burstclip.com">Explore BurstClip
+                        <span class="material-symbols-outlined text-[20px] text-on-primary">arrow_forward</span></a>
+</div>
+<div class="order-1 md:order-2 w-full aspect-square md:aspect-video rounded-xl bg-surface-container-high border border-outline-variant/20 flex items-center justify-center overflow-hidden relative shadow-inner">
+<!-- Placeholder for cinematic content/app preview -->
+<div class="absolute inset-0 bg-gradient-to-tr from-surface to-surface-container-high opacity-80"></div>
+<span class="material-symbols-outlined text-primary text-6xl opacity-50 absolute">movie_creation</span>
+<div class="absolute bottom-4 left-4 font-label-caps text-label-caps text-secondary bg-surface/50 px-3 py-1 rounded backdrop-blur-sm border border-secondary/20">
+                         // CINEMATIC_RENDER_ENGINE
+                     </div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="px-margin-mobile md:px-margin-desktop py-16 md:py-32 relative">
+<div class="max-w-3xl mx-auto text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">psychology</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Our Mission</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">At BitChad LLC, we believe that the barrier to professional media creation should be imagination, not technical skill. We are dedicated to building robust, reliable AI frameworks that empower creators, studios, and enterprise partners to realize their visionary output with unprecedented speed and fidelity.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 w-full mt-auto">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-2">
+<img alt="BitChad Logo" class="w-8 h-8 object-contain rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJqbKoNQMbJwS8R7ddjn-1do5qG0ynkfH0i57UE1aapZFJlGEOQFd3kND6dRnE98wuElaNLjcXgKpt5ePsLJRd9MJYUN27VVFtwsKvXOSkFE7jPWQqCUA7OjgPtadVPyZRVStrLkURI2bln7Qzn_xp7_XEV7fQUl6k3Y402N4Upr0rs4O_lMdacH5Bnur_H8H681ru8D4foQoILWsauqrhiD-ni5U53w6ViQoVzGP0sQXCuiV5iZsKzyL6mEfcUgM4sQ">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">BitChad</span>
+</div>
+<nav class="flex flex-wrap justify-center gap-6 font-body-md text-body-md text-on-surface-variant">
+<a class="hover:text-secondary transition-colors" href="#">Investors</a>
+<a class="hover:text-secondary transition-colors" href="#">Careers</a>
+<a class="hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-secondary transition-colors" href="#">Contact</a>
+</nav>
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+                © 2024 BitChad LLC. All rights reserved.
+            </div>
+</div>
+</footer>
+
+
+</body></html>
